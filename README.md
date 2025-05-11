@@ -43,9 +43,8 @@ This project provides an interactive analysis and simulation of a **Continuous S
   Q_{gen} = Q_{rem} \Rightarrow (-\Delta H) r_A V = UA(T - T_c)
   \]
 - Solves numerically for steady-state intersections
-- Stability determined from the **slopes** of energy balance curves
+- Stability determined from the **intersection** of energy balance and mole balance curves
 
 ---
 
-## 🗂️ Project Structure
 
