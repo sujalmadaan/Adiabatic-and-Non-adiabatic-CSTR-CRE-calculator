@@ -1,5 +1,5 @@
 # Adiabatic-and-Non-adiabatic-CSTR-CRE-calculator
-# ⚗️ CSTR Analysis – Adiabatic & Non-Adiabatic | [🌐 Live Demo](https://cll-122-project.vercel.app/)
+# ⚗️ CSTR Analysis – Adiabatic & Non-Adiabatic 
 
 This project provides an interactive analysis and simulation of a **Continuous Stirred Tank Reactor (CSTR)** under both **adiabatic** and **non-adiabatic** conditions. It allows users to compute and visualize:
 
