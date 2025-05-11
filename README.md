@@ -30,14 +30,7 @@ This project provides an interactive analysis and simulation of a **Continuous S
   - Volume vs conversion
 - Deployed as a **web app** using [Vercel](https://vercel.com)
 
----
 
-## 📷 Screenshots
-
-![Heat Balance Curve](results/plots/heat_curves.png)
-![Conversion vs Temperature](results/plots/conversion_vs_T.png)
-
----
 
 ## 🧪 How It Works
 
