@@ -1,50 +1,36 @@
-# Adiabatic-and-Non-adiabatic-CSTR-CRE-calculator
-# ⚗️ CSTR Analysis – Adiabatic & Non-Adiabatic 
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This project provides an interactive analysis and simulation of a **Continuous Stirred Tank Reactor (CSTR)** under both **adiabatic** and **non-adiabatic** conditions. It allows users to compute and visualize:
+## Getting Started
 
-- ✅ Steady-state conversion
-- 🌡️ Reactor temperature profiles
-- 🧪 Reactor volume requirements
-- ⚡ Reaction rates
-- 🔁 Multiple steady states & stability
-- 🔥 Thermal runaway behavior
+First, run the development server:
 
-> 📌 Explore it live: [https://cll-122-project.vercel.app/](https://cll-122-project.vercel.app/)
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
----
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🚀 Features
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-- Dual-mode simulation: **Adiabatic** and **Non-Adiabatic** CSTRs
-- Calculates:
-  - Conversion (X)
-  - Reactor Temperature (T)
-  - Volume (V)
-  - Rate of Reaction (r<sub>A</sub>)
-- Identifies **multiple steady states** (if present)
-- Performs **stability analysis** (stable/unstable)
-- Visualizes:
-  - Heat generation vs removal
-  - Conversion vs temperature
-  - Volume vs conversion
-- Deployed as a **web app** using [Vercel](https://vercel.com)
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Learn More
 
+To learn more about Next.js, take a look at the following resources:
 
-## 🧪 How It Works
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- **Material balance**:  
-  \[
-  F_{A0}(X) = V r_A
-  \]
-- **Energy balance** (non-adiabatic):  
-  \[
-  Q_{gen} = Q_{rem} \Rightarrow (-\Delta H) r_A V = UA(T - T_c)
-  \]
-- Solves numerically for steady-state intersections
-- Stability determined from the **intersection** of energy balance and mole balance curves
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
----
+## Deploy on Vercel
 
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
