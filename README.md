@@ -1,0 +1,1 @@
+# Adiabatic-and-Non-adiabatic-CSTR-CRE-calculator
